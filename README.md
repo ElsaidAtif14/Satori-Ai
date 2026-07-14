@@ -22,21 +22,23 @@
 
 ## ✨ Key Features
 
-*   **🤖 AI Chat Interface:** Real-time conversational AI powered by `google_generative_ai` (Gemini).
-*   **🔐 Robust Authentication:** Secure login & registration via Email, Google, and Facebook.
-*   **🎨 Premium UI/UX:** Responsive layouts, gorgeous Dark Theme, and Arabic-friendly typography.
-*   **🚀 Smooth Navigation:** Organized on-boarding flow and declarative routing.
-*   **💾 Local Caching:** Fast loading and preferences storage using `shared_preferences`.
+* **🤖 AI Chat Interface:** Real-time conversational AI powered by `google_generative_ai` (Gemini).
+* **🔐 Robust Authentication:** Secure login & registration via Email, Google, and Facebook.
+* **🎨 Premium UI/UX:** Responsive layouts, gorgeous Dark Theme, and Arabic-friendly typography.
+* **🚀 Smooth Navigation:** Organized on-boarding flow and declarative routing.
+* **💾 Local Caching:** Fast loading and preferences storage using `shared_preferences`.
 
 ---
 
-## 📱 Screenshots
+## 📱 App Screenshots
 
-> **💡 Developer Tip:** replace the placeholder links below with your actual screenshot URLs to showcase your app!
+| Splash Screen | Onboarding | Sign In | Sign Up |
+| :-: | :-: | :-: | :-: |
+| <img src="https://github.com/user-attachments/assets/86a6512d-650b-4a3d-9d13-f953ea451c39" width="200"> | <img src="https://github.com/user-attachments/assets/2b56994d-7767-4bd6-be6e-c5ca1a11dd70" width="200"> | <img src="https://github.com/user-attachments/assets/12aae4c1-3fc7-49d9-a7bb-07ddae67e2ab" width="200"> | <img src="https://github.com/user-attachments/assets/3832678e-5ce3-43c0-beed-040ec0072262" width="200"> |
 
-| Splash & Welcome | AI Chat | Authentication |
+| Navigation Drawer | Chat Home | Chat Details |
 | :-: | :-: | :-: |
-| <img src="https://via.placeholder.com/220x440?text=Onboarding" width="220"> | <img src="https://via.placeholder.com/220x440?text=AI+Chat" width="220"> | <img src="https://via.placeholder.com/220x440?text=Login" width="220"> |
+| <img src="https://github.com/user-attachments/assets/9a525b64-dabf-4152-8557-f81c8de4eccd" width="220"> | <img src="https://github.com/user-attachments/assets/5fb30558-8a0d-4395-88fd-c7315260277c" width="220"> | <img src="https://github.com/user-attachments/assets/1330c09b-4706-421c-b4b1-a6c9ea65549f" width="220"> |
 
 ---
 
@@ -54,9 +56,9 @@ This project follows clean code practices, utilizing industry-standard libraries
 | **UI & UX** | `flutter_screenutil`, `google_fonts`, `lottie` |
 
 ### 📁 Project Structure
-*   `lib/main.dart` - Application entry point (Initializes Firebase, DI, & ScreenUtil).
-*   `lib/core/` - Shared folder (`helpers`, `routing`, `services`, `widgets`).
-*   `lib/features/` - Feature-first modules (`auth`, `chat`, `on_boarding`).
+* `lib/main.dart` - Application entry point (Initializes Firebase, DI, & ScreenUtil).
+* `lib/core/` - Shared folder (`helpers`, `routing`, `services`, `widgets`).
+* `lib/features/` - Feature-first modules (`auth`, `chat`, `on_boarding`).
 
 ---
 
@@ -64,24 +66,7 @@ This project follows clean code practices, utilizing industry-standard libraries
 
 Follow these quick steps to run the project locally:
 
-1.  **Clone the Repository:**
-    ```bash
-    git clone [https://github.com/your-username/satori-ai.git](https://github.com/your-username/satori-ai.git)
-    cd satori-ai
-    ```
-
-2.  **Add Configuration Files:**
-    *   Place your `google-services.json` in `android/app/`.
-    *   Place your `GoogleService-Info.plist` in `ios/Runner/`.
-
-3.  **Run the App:**
-    ```bash
-    flutter pub get
-    flutter run
-    ```
-
----
-
-<p align="center">
-  Made with ❤️ using Flutter
-</p>
+1. **Clone the Repository:**
+   ```bash
+   git clone [https://github.com/your-username/satori-ai.git](https://github.com/your-username/satori-ai.git)
+   cd satori-ai
